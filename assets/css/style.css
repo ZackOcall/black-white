@@ -10,5 +10,11 @@ body {
     padding: 0;
     margin: 0;
     background: #9ca4a9;
-    font-family: 'Gideon Roman', cursive;;
+    font-family: 'Gideon Roman', cursive;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
 }
