@@ -24,7 +24,8 @@ main {
 
 header {
     text-align: center;
-    background-color: aqua; min-height: 100px;
+    background-color: aqua; 
+    min-height: 100px;
 }
 
 section:nth-child(1) {
@@ -33,6 +34,22 @@ section:nth-child(1) {
 }
 
 section:nth-child(2) {
-    flex: 0 0 300px;
+    flex: 0 0 400px;
     background-color: red;
+}
+
+#black, #white {
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#white {
+    background-color: white;
+    color: black;
 }
